@@ -8,4 +8,5 @@ This repository contains the code for the Cambridge Element Book "Who follows wh
 -  `two_variable_heatmaps.ipynb` plots the trivariate heatmaps broken down by population in radius of Section 4.3 and Appendix 8 and the heatmaps of partisanship by election tweets of Appendix 5.
 -  `homophily_functions.py` has functions doing the bulk of the calculations in `Network_Composition.ipynb`, `Bivariate_analysis.ipynb`, and `two_variable_heatmaps.ipynb`.
 -  `Logistic.ipynb` and `logistic_func.py` contain the code for the bivariate logistic regressions with age, distance, and population in radius (Sections 3.2 and 4.1), and for the multivariate logistic regressions (Section 5 and Appendix 4) and the KHB method (Appendix 9).
--  `CSP_data.ipynb` pre-processes the Covid States survey data and network, and matches with the voter file data to run the comparison of Appendix 1. `CSP_homophily.ipynb` runs the homophily results with the Covid States data of Appendix 2. 
+-  `CSP_data.ipynb` pre-processes the Covid States survey data and network, and matches with the voter file data to run the comparison of Appendix 1. `CSP_homophily.ipynb` runs the homophily results with the Covid States data of Appendix 2.
+-  `Graphic_density.ipynb` contains the code for Figure 1 and the related descriptives in Section 2.2. 
