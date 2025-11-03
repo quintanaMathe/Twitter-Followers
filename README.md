@@ -1,4 +1,4 @@
-This repository contains the code for the paper "Homophily and geography in online follower ties". All files are Jupyter Notebooks, except to python scripts with functions that are used in the notebooks. 
+This repository contains the code for the Cambridge Element Book "Who follows whom? The Role of Geography and Similarity in Online Attention Networks". All files are Jupyter Notebooks, except to python scripts with functions that are used in the notebooks. 
 
 - `Build_network.ipynb` contains the code to construct the follower network from the raw follower data, match it to the voter file and to the other sources of node and edge attributes (census tract RUCA and population density and number of election tweets), pre-process the attributes, calculate the distance between each edge, and add population in the radius from the `Radiation_model.ipynb` notebook. The output is a pickle file, `follower_graph.pk`, which is the pickled version of a NetworkX object, the input of all the other notebooks. 
 - `Descriptives.ipynb` outputs the sample composition and average degrees for Table 1, and the degree distribution plots of Appendix 11.   
